@@ -60,6 +60,9 @@ To run the pipeline, you need a VM to act as an agent. Use the following command
 
 1. **Download and Create the Agent:**
      ```bash
+     wget https://vstsagentpackage.azureedge.net/agent/3.246.0/vsts-agent-linux-x64-3.246.0.tar.gz
+     ```
+     ```bash
      mkdir myagent && cd myagent
      tar zxvf ~/Downloads/vsts-agent-linux-x64-3.246.0.tar.gz
      ```
