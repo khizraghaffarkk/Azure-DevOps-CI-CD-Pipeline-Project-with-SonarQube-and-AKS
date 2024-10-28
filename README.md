@@ -74,7 +74,6 @@ To run the pipeline, you need a VM to act as an agent. Use the following command
    - Enter your Azure DevOps organization URL:
       `https://dev.azure.com/your_organization_name`
    - Provide your **Personal Access Token (PAT)** from Azure DevOps.
-     
    ![Screenshot from 2024-10-28 01-05-55](https://github.com/user-attachments/assets/dc51679f-6cf3-46c0-bc48-85a796ea5896)
 
 3. **Run the Agent:**
