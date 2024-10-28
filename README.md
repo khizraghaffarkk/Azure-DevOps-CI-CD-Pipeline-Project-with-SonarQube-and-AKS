@@ -1,6 +1,6 @@
 # 🐳 Azure DevOps CI/CD Pipeline Project with SonarQube & AKS
 
-This repository contains the **CI/CD pipeline configuration** for the [BoardGame](https://github.com/jaiswaladi246/Boardgame/tree/main) project**. This repository contains the CI/CD pipeline setup for a Maven-based application. While this project was initially developed using both AWS and Azure, the following instructions focus on Azure DevOps. This pipeline uses SonarQube for code quality checks, Docker for containerization, and Azure Kubernetes Service (AKS) for deployment.
+This repository contains the **CI/CD pipeline configuration** for the [BoardGame](https://github.com/jaiswaladi246/Boardgame/tree/main) project. This repository contains the CI/CD pipeline setup for a Maven-based application. While this project was initially developed using both AWS and Azure, the following instructions focus on Azure DevOps. This pipeline uses SonarQube for code quality checks, Docker for containerization, and Azure Kubernetes Service (AKS) for deployment.
 
 
 ## 📂 Technologies Used:
@@ -27,7 +27,7 @@ To complete this project, ensure you have:
 
 ### Step 1: Set Up SonarQube for Code Quality Analysis
 
-1. **Run SonarQube Docker Image:** To check code quality, we’ll use a Docker image of SonarQube with a community branch plugin. Run the following command:
+1. **Run SonarQube Docker Image:** To check code quality, I have used a Docker image of SonarQube with a community branch plugin. Run the following command:
    ```bash
    docker run -d --name sonar -p 9000:9000 mc1arke/sonarqube-with-community-branch-plugin
    ```
