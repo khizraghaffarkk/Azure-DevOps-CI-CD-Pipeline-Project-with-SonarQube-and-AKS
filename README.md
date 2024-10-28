@@ -74,6 +74,7 @@ To run the pipeline, you need a VM to act as an agent. Use the following command
    - Enter your Azure DevOps organization URL:
       `https://dev.azure.com/your_organization_name`
    - Provide your **Personal Access Token (PAT)** from Azure DevOps.
+     
    ![Screenshot from 2024-10-28 01-05-55](https://github.com/user-attachments/assets/dc51679f-6cf3-46c0-bc48-85a796ea5896)
 
 3. **Run the Agent:**
@@ -83,6 +84,7 @@ To run the pipeline, you need a VM to act as an agent. Use the following command
      ![Screenshot from 2024-10-28 01-26-52](https://github.com/user-attachments/assets/798a7626-347a-4373-83e3-c43f285286f4)
 
      - You will see, the agent will be online:
+       
        ![Screenshot from 2024-10-28 01-26-10](https://github.com/user-attachments/assets/01a1087e-02dc-42ae-a8ba-6fa61ecb5eac)
 
      
@@ -114,6 +116,7 @@ To run the pipeline, you need a VM to act as an agent. Use the following command
    - Trivy can be used for vulnerability scanning of Docker images.
 4. **Run the Pipelin:**
    - Check the status of Agent job:
+     
      ![Screenshot from 2024-10-28 02-03-01](https://github.com/user-attachments/assets/b0700801-9172-4081-9861-ef4e5a5a1ad9)
 
 ### 🌀 Deployment with Azure Kubernetes Service (AKS)
