@@ -40,6 +40,10 @@ To complete this project, ensure you have:
 
 1. **Create a New Azure DevOps Project:**
    - Go to your Azure DevOps account, create a new project, and import your GitHub repository.
+   - You can also import this GitHub repository:
+     ```bash
+     https://github.com/khizraghaffarkk/Azure-DevOps-CI-CD-Pipeline-Project-with-SonarQube-and-AKS.git
+     ```
 
 2. **Set Up a Classic Pipeline:**
    - In Azure DevOps, choose the **Classic** pipeline (this example uses a Maven-based project).
