@@ -67,6 +67,10 @@ To run the pipeline, you need a VM to act as an agent. Use the following command
      tar zxvf ~/Downloads/vsts-agent-linux-x64-3.246.0.tar.gz
      ```
 2. **Configure the Agent:**
+   - Run this command on terminal:
+     ```bash
+     ./config.sh
+     ```
    - Enter your Azure DevOps organization URL:
       `https://dev.azure.com/your_organization_name`
    - Provide your **Personal Access Token (PAT)** from Azure DevOps.
