@@ -140,10 +140,13 @@ To run the pipeline, you need a VM to act as an agent. Use the following command
 
 ### 📈  Monitoring and Quality Checks
 To check the status of your application:
+
 **1. Code Quality in SonarQube:**
    - Access the SonarQube interface to view code quality and coverage reports.
+     
 **2. Docker Image Verification:**
    - Check Docker Hub to ensure the image was successfully created and pushed.
+     
 **3. Application Status in AKS:**
    - Use Azure Kubernetes Service tools to confirm the application is running as expected.  
 
